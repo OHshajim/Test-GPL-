@@ -24,11 +24,11 @@ const Content = () => {
     return (
         <div className='my-10 max-w-7xl mx-auto'>
             {/* table */}
-            <h1 className='text-center mb-5 font-semibold text-xl'>Select  Department </h1>
+            <h1 className='text-center mb-5 font-semibold text-xl'>All Content</h1>
             <div style={{ height: 400, width: '100%' }}>
                 <DataGrid rows={data} columns={columns} />
             </div>
-            
+
             {/* Task 4 Component will go here */}
             <Department/>
         </div>
